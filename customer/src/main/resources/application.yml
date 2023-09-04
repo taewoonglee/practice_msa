@@ -1,0 +1,15 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer?serverTimezone=Asia/Seoul
+    username: root
+    password: 1q2w3e4r!!
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
